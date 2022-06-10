@@ -22,10 +22,7 @@ int main()
     cout<<"Enter the size of the array: "<<endl;
     cin>>n;
     
-    // dec    cout<<"The sum of the array elements is: "<< sumOfArray(arr, n)<<endl;
-
-    return 0;
-}laring array
+    // declaring array
     int arr[100];
     
     // taking input : the elements of the array
@@ -34,3 +31,8 @@ int main()
     {
         cin>>arr[i];
     }
+    
+    cout<<"The sum of the array elements is: "<< sumOfArray(arr, n)<<endl;
+
+    return 0;
+}
